@@ -5,9 +5,10 @@ require 'pry'
 def prime(number)
   
 range = (1...number)
-
-range.each do 
-
+array = []
+range.collect do |n| 
+ num = number / n
+ num.even?
 
 end
 

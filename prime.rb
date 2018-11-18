@@ -1,4 +1,3 @@
-require 'pry'
 
 
 
@@ -23,5 +22,3 @@ end
   
 
 end 
-
-binding.pry

@@ -19,6 +19,8 @@ elsif array.include?(true)
   return false
 else 
   return true
+end  
+  
 
 end 
 

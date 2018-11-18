@@ -8,8 +8,7 @@ range = (1...number)
 
 
 range.collect do |n| 
- num = number / n
- num.even?
+ number % n == 0 
 
 end
 

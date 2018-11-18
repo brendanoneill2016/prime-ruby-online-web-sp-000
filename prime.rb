@@ -12,6 +12,14 @@ array = range.collect do |n|
 
 end
 
+
+if number < 2
+  return false
+elsif array.include?(true)
+  return false
+else 
+  return true
+
 end 
 
 binding.pry

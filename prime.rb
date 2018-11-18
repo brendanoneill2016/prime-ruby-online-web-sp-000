@@ -4,7 +4,7 @@ require 'pry'
 
 def prime(number)
   
-range = (1...number)
+range = (2...number)
 
 
 range.collect do |n| 
